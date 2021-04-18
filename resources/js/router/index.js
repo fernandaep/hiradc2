@@ -1,5 +1,6 @@
 import Home from '../views/Home'
 import Category from '../views/category/Index'
+import Vulnerability from '../views/vulnerability/Index'
 
 export default
 {
@@ -15,6 +16,11 @@ export default
             path:'/category',
             name:'category',
             component: Category,
+        },
+        {
+            path:'/vulnerability',
+            name:'vulnerability',
+            component: Vulnerability,
         },
     ]
 }

@@ -28,6 +28,12 @@
                             <p>Kategori</p>
                         </router-link>
                     </li>
+                    <li class="nav-item">
+                        <router-link class="nav-link" :to="{name:'vulnerability'}" >
+                            <i class="nav-icon fas fa-exclamation-triangle"></i>
+                            <p>vulnerability</p>
+                        </router-link>
+                    </li>
                 </ul>
             </nav>
         </div>
